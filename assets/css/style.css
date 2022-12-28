@@ -179,14 +179,23 @@ section h2{
 
 }
 
+@media (max-width:640px) {
+    nav {
+    display: none;
+    }
+    img_main img {}
+    }
+    @media (max-width:640px) {
+    nav {
+    display: none;
+    }
+    img_main {
+    padding: 40px;
+    }
+    };
+
+
 /* 
-
-
-
-
-
-
-
 
 .img__ofer{
     display: flex;
